@@ -1,0 +1,18 @@
+Question Title: Execute a Python Script Directly
+
+Question Link:
+https://my.newtonschool.co/playground/code/mepmefz373b4?lecture_hash=t5qc0u6ap8tg
+
+Solution:
+echo "#!/usr/bin/env python3" > hello.py
+echo "print('Hello from Python')" >> hello.py
+chmod 777 hello.py
+./hello.py
+
+Approach:
+1. write the shebang to tell the computer which compiler or interpretor to use for the given code
+2. write the program to be executed
+3. give the file execution permission
+
+Result:
+python file executes directly from terminal
