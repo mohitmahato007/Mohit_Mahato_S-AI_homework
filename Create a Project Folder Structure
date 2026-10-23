@@ -20,6 +20,18 @@ chmod +x create-service
 ./create-service
 
 Approach:
+1. Writing the correct code in create-service replacing the original wrong code
 
+2. Giving create-service execution permission 
+
+3. Executing create-service to create the required service srtucture
 
 Result:
+service/
+├── controllers/
+├── models/
+├── routes/
+├── middleware/
+├── server.js
+└── README.md
+service structure obtained
