@@ -1,0 +1,25 @@
+Question Title: The Internship Project Setup
+
+Question Link:
+https://my.newtonschool.co/playground/code/5i36axzh7cl2?lecture_hash=mi7y4g3am46y
+
+Solution:
+cd client-app
+git init
+echo "hehe" > index.html
+echo "haha" > app.js
+git add index.html app.js
+git commit -m "Initial client files"
+git remote add origin https://github.com/startup/client-app.git
+git push -u origin main
+git log
+
+Approach:
+1. navigate into client-app
+2. initialise git
+3. write, stage and commit with appropriate comments as per the requirements
+4. add a remote as origin 
+5. push into main for the first time
+
+Result:
+The Internship Project Setup completed
